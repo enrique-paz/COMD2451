@@ -1,2 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+
+body {
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+section {
+  height:300px;
+  background-image:url(images/flower-bkg.jpg);
+  background-size:cover;
+}
