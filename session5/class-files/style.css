@@ -1,2 +1,75 @@
 @charset "utf-8";
 /* CSS Document */
+
+* {
+  margin:0;
+  padding:0;
+  font-weight:normal;
+  font-size:100%;
+}
+body {
+  font-family:sans-serif;
+  line-height:24px;
+}
+header {
+  background-color:cornflowerblue;
+  padding:20px;
+  text-align:left;
+  color:white;
+  font-size:32px;
+  font-weight:bold;
+  height:150px;
+  position:relative;
+}
+footer {
+  background-color:black;
+  padding:15px;
+  text-align:center;
+  color:white;
+  font-size:12px;
+}
+section {
+  text-align:center;
+  padding-top:120px;
+  padding-bottom:120px;
+  font-size:42px;
+  text-transform:uppercase;
+  color:orange;
+  background-image:url(images/flower-bkg.jpg);
+  background-size:cover;
+}
+figure {
+  border-style:solid;
+  border-color:black;
+  border-width:2px;
+  padding:10px;
+  display:inline-block;
+  margin:15px;
+}
+figcaption {
+  background-color:black;
+  padding:5px;
+  text-align:center;
+  font-size:12px;
+  color:white;
+}
+h1 {
+  float:left;
+}
+main p {
+  display:inline-block;
+  width:600px;
+}
+main {
+  width:990px;
+  margin-right:auto;
+  margin-left:auto;
+  bottom:100px;
+  position:relative;
+  background-color:white;
+}
+header img {
+  position:absolute;
+  top:125px;
+  right:0;
+}
